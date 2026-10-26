@@ -96,3 +96,4 @@ Struktur folder RumahHijau sebagai berikut:
 - https://www.cnnindonesia.com/edukasi/20240123172422-569-1053383/pengertian-dan-contoh-hemat-energi-dalam-kehidupan-sehari-hari
 - https://lestari.kompas.com/read/2023/05/12/080813786/mengenal-tujuan-7-sdgs-energi-bersih-dan-terjangkau
 - https://sustainability.ui.ac.id/wp-content/uploads/2024/11/SDGs-13-SDGs-UI-2023.pdf
+- https://www.msig.co.id/id/article/rayakan-hari-bumi-5-kebiasaan-hemat-energi-ini-bisa-buat-rumah-lebih-terlindungi

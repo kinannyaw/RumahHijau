@@ -1,6 +1,6 @@
-/* ==========================================================================
-   1. RESET & VARIABLE UMUM
-   ========================================================================== */
+
+   /* 1. VARIABLE UMUM */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +23,9 @@ body {
     padding: 0 20px;
 }
 
-/* ==========================================================================
-   2. NAVBAR & HEADER (Semua Halaman)
-   ========================================================================== */
+
+   /* 2. NAVBAR & HEADER (Semua Halaman) */
+
 .navbar, header.header {
     background-color: #224b37;
     color: white;
@@ -70,9 +70,9 @@ body {
     font-weight: bold;
 }
 
-/* ==========================================================================
-   3. HERO SECTION & BADGE KREM
-   ========================================================================== */
+
+   /* 3. HERO SECTION & BADGE KREM */
+
 .hero-card, .hero, .tips-hero, .article-hero, .detail-hero, .about-hero {
     background-color: #f4f1e8;
     padding: 35px 25px;
@@ -131,8 +131,8 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     max-width: 750px;
     width: 100%;
     margin: 20px auto 0 auto;
-    border-radius: 24px; /* Memberikan lekukan manis pada container */
-    overflow: hidden;    /* Memaksa semua isinya (termasuk foto) ikut melengkung */
+    border-radius: 24px; /* Memberikan lekukan pada container */
+    overflow: hidden;    /* Semua isinya (termasuk foto) ikut melengkung */
 }
 
 /* 2. Gambar Elemen */
@@ -142,7 +142,7 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     max-height: 400px; 
     object-fit: cover; /* Diubah ke cover agar foto mengisi penuh lekukan sudut */
     object-position: center;
-    border-radius: 24px; /* Sudut melengkung halus (bisa disesuaikan: 16px - 30px) */
+    border-radius: 24px; /* Sudut melengkung halus*/
     display: block;
 }
 
@@ -159,9 +159,9 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     z-index: 2;
 }
 
-/* ==========================================================================
-   4. GRID & KARTU FITUR (Beranda & Edukasi)
-   ========================================================================== */
+
+ /* 4. GRID & KARTU FITUR (Beranda & Edukasi) */
+
 .section-features, .education-section, .tips-section, .articles-section, 
 .about-section, .developer-section, .reference-section {
     margin-top: 25px;
@@ -259,9 +259,9 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     font-weight: bold;
 }
 
-/* ==========================================================================
-   5. DETAIL ARTIKEL & TIPS (Daftar & Referensi)
-   ========================================================================== */
+
+/* 5. DETAIL ARTIKEL & TIPS (Daftar & Referensi) */
+
 .article-body {
     background: white;
     padding: 25px;
@@ -321,12 +321,12 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     margin-bottom: 15px;
 }
 
-/* ==========================================================================
-   6. HALAMAN TENTANG KAMI
-   ========================================================================== */
+
+/* 6. HALAMAN TENTANG KAMI */
+
 .about-section {
     display: grid;
-    grid-template-columns: 320px 1fr; /* Membatasi kolom gambar 350px agar teks mendekat */
+    grid-template-columns: 320px 1fr; /* Membatasi kolom gambar 320px agar teks mendekat */
     gap: 20px;
     align-items: center;
     background-color: #f4f1e8; /* Memberi warna latar krem menyatu */
@@ -336,13 +336,12 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
 
 .about-image img {
     width: 100%;
-    height: auto; /* Mengecilkan tinggi foto agar tidak terlalu kotak */
+    height: auto; 
     max-height: 220px;
     object-fit: contain;
     border-radius: 12px;
 }
 
-/* --- TEMPEL KODE BARU DI SINI --- */
 .developer-info .instansi {
     color: #555;
     font-size: 0.9rem;
@@ -377,7 +376,6 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     color: #555;
     margin-top: 10px;
 }
-/* -------------------------------- */
 
 .reference-list {
     display: flex;
@@ -385,9 +383,9 @@ h1, .hero-card h1, .hero-text h1, .tips-hero h1, .article-hero h1 {
     gap: 12px;
 }
 
-/* ==========================================================================
-   7. FOOTER HIJAU TUA (Semua Halaman)
-   ========================================================================== */
+
+/* 7. FOOTER HIJAU TUA (Semua Halaman) */
+
 footer, footer.footer {
     background-color: #224b37;
     color: white;
@@ -407,9 +405,9 @@ footer a:hover, footer.footer a:hover {
     color: white;
 }
 
-/* ==========================================================================
-   8. DESAIN RESPONSIF (Tablet & Smartphone)
-   ========================================================================== */
+
+/* 8. DESAIN RESPONSIF (Tablet & Smartphone) */
+
 @media (max-width: 768px) {
     .cards-grid, .card-container, .tips-grid, .articles-grid, .sdg-container {
         grid-template-columns: repeat(2, 1fr);

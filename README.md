@@ -1,7 +1,7 @@
 # RumahHijau
-RumahHijau adalah website edukasi yang mengajak masyarakat untuk lebih peduli terhadap lingkungan melalui penerapan kebiasaan hemat energi dalam kehidupan sehari-hari.
+Hemat Energi – Rumah Ramah Lingkungan adalah website edukasi yang bertujuan memberikan informasi kepada masyarakat mengenai pentingnya menghemat energi dalam kehidupan sehari-hari. Website ini membahas cara mengurangi penggunaan listrik, memanfaatkan energi secara efisien, serta menerapkan kebiasaan ramah lingkungan di rumah.
 
-Website ini dibuat sebagai media informasi dan edukasi untuk meningkatkan kesadaran tentang pentingnya penggunaan energi secara bijak, mengurangi pemborosan energi, serta membangun gaya hidup yang lebih ramah lingkungan.
+Website ini ditujukan kepada masyarakat umum, khususnya keluarga dan rumah tangga, agar dapat memahami dan menerapkan kebiasaan hemat energi untuk mengurangi pemborosan listrik serta mendukung kelestarian lingkungan.
 
 # Anggota Kelompok
 1. Kadek Ayu Pariyastini (2515091042)
